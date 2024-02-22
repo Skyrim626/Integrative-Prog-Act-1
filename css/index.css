@@ -9,6 +9,15 @@
   color: white;
 }
 
+/* Sizing box */
+.login-box img {
+  width: 65%;
+}
+
+.login-box .container {
+  width: 35%;
+}
+
 .login__form {
   display: flex;
   flex-direction: column;
