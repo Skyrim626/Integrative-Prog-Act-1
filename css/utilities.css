@@ -1,0 +1,88 @@
+@import url(default-style.css);
+@import url(index.css);
+
+.container {
+  padding: 30px;
+}
+
+.btn {
+  border: none;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+
+.btn.btn-primary {
+  background: var(--btn-bg-primary);
+  color: var(--clr-neutral-100);
+  transition: 0.3s;
+}
+
+.btn.btn-primary:hover {
+  background: var(--clr-accent-200);
+}
+
+/* Margins */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Text Alignment */
+.text-center {
+  text-align: center;
+}
+
+/* Flexbox Utilities */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 1.5rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+/* Form Groups */
+
+.form__form-field-group {
+  gap: 1rem;
+}
+
+.form__form-label-field {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form__license-agreement {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-field {
+  padding: 1rem;
+  border: none;
+}

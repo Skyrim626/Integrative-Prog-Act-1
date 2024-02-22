@@ -1,0 +1,62 @@
+@import url(index.css);
+@import url(utilities.css);
+
+:root {
+  /* Font Size */
+  --fs-200: 0.5rem;
+  --fs-300: 1rem;
+  --fs-400: 3rem;
+
+  /* Colors */
+  --clr-primary: #060606;
+
+  --clr-accent-100: #5776f9;
+  --clr-accent-200: #395dfe;
+
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-200: #7f7f7f;
+
+  --bg-primary: var(--clr-primary);
+  --btn-bg-primary: var(--clr-accent-100);
+
+  /* Font Family */
+  --ff-primary: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-primary);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font: inherit;
+}
+
+img,
+svg,
+picture {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Colors */
+.text-neutral-100 {
+  color: var(--clr-neutral-100);
+}

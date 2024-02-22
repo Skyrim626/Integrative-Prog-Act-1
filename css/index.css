@@ -1,0 +1,29 @@
+@import url(default-style.css);
+@import url(utilities.css);
+
+.login-box {
+  display: flex;
+  height: 100vh;
+  flex: 1;
+  background: var(--bg-primary);
+  color: white;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login__membership {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: var(--clr-accent-100);
+}
+
+.nav-link:hover {
+  color: var(--clr-accent-200);
+}
